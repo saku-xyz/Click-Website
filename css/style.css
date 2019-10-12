@@ -1,0 +1,651 @@
+html,
+body {
+    left: 0;
+    top: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/*=================================Navigation Bar ========================================*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    transition: .5s;
+    z-index: 10;
+}
+
+nav.black {
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .04);
+    height: 80px;
+    padding: 10px 50px;
+}
+
+nav .logo {
+    float: left;
+    padding-top: 9px;
+}
+
+
+nav .logo img.img2 {
+    transition: .5s;
+
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    padding-top: 15px;
+    list-style: none;
+}
+
+nav ul li a {
+    font-family: Montserrat;
+    list-style: 80px;
+    color: #000000;
+    padding: 5px 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #f00;
+}
+
+nav.black ul li a {
+    color: #262626;
+}
+
+nav.black ul li a:hover {
+    color: #f00;
+}
+
+nav ul li a.active,
+nav ul li a.hover {
+    color: #f00;
+}
+
+section.top {
+    @include section-padding;
+    background: url(../Images/img.jpg) no-repeat center center fixed;
+    display: table;
+    height: 112vh;
+    position: relative;
+    width: 100%;
+    background-size:cover;
+}
+
+.responsive-bar {
+    display: none;
+}
+
+
+/*============================End Navigation Bar ========================================*/
+
+.contents {
+    @include section-padding;
+}
+
+
+/*-------------------------Section_1----------------------------*/
+.content_1 {
+    padding-top: 130px;
+    height: 100%;
+    font-family: Montserrat;
+}
+
+.works_1 {
+
+    padding-top: 215px;
+    left: 25px
+}
+
+.works_1 h1 {
+    color: #000000;
+    font-family: Bebas Neue;
+    text-align: center;
+    transform: rotate(-90deg);
+    font-size: 1.3em;
+    letter-spacing: 17px;
+}
+
+.description_1 {
+    padding-top: 30px;
+    position: relative;
+    left: 110px;
+}
+
+.description_1 h1 {
+    font-size: 3.65rem;
+    text-align: left;
+    position: relative;
+    color: #000000;
+    z-index: 1;
+}
+
+.description_1 p {
+    padding-top: 30px;
+    padding-left: 6px;
+    font-size: 1.032rem;
+    color: #787878;
+    font-family: arial;
+    text-align: left;
+    font-weight: lighter;
+    letter-spacing: .15px;
+    line-height: 2.3;
+    position: relative;
+}
+
+.slideshow_1 {
+    position: relative;
+    width: 0%;
+    right: 143px;
+}
+
+.portfolio_1 {
+    float: left;
+    margin-top: 130px;
+    padding-left: 2.5px;
+}
+
+.portfolio_1 a {
+    color: #000000;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 1.2px;
+}
+
+.portfolio_1 a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+#carouselExampleIndicators_1 {
+    width: 51.1vw;
+}
+
+
+
+/*-------------------------Section_2----------------------------*/
+.content_2 {
+    margin-top: 150px;
+    height: 100%;
+    font-family: Montserrat;
+}
+
+.works_2 {
+    padding-top: 215px;
+    left: 25px
+}
+
+.works_2 h1 {
+    color: #000000;
+    font-family: Bebas Neue;
+    text-align: center;
+    transform: rotate(-90deg);
+    font-size: 1.3em;
+    letter-spacing: 17px;
+}
+
+.description_2 {
+    padding-top: 30px;
+    position: relative;
+    right: 84px;
+}
+
+.description_2 h1 {
+    color: #000000;
+    font-size: 3.16rem;
+    text-align: right;
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.description_2 p {
+    text-align: right;
+    padding-right: 6px;
+    padding-top: 30px;
+    font-size: 1.032rem;
+    color: #787878;
+    font-family: arial;
+    font-weight: lighter;
+    letter-spacing: .15px;
+    line-height: 2.3;
+    position: relative;
+}
+
+.slideshow_2 {
+    position: relative;
+    left: 114px;
+}
+
+.portfolio_2 {
+    float: right;
+    margin-top: 30px;
+    padding-right: 2.5px;
+}
+
+.portfolio_2 a {
+    color: #000000;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 1.2px;
+}
+
+.portfolio_2 a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+#carouselExampleIndicators_2 {
+    width: 51.1vw;
+}
+
+
+/*-------------------------Section_3----------------------------*/
+.content_3 {
+    margin-top: 150px;
+    height: 100%;
+    font-family: Montserrat;
+}
+
+.works_3 {
+    padding-top: 215px;
+    left: 25px
+}
+
+.works_3 h1 {
+    font-family: Bebas Neue;
+    text-align: center;
+    transform: rotate(-90deg);
+    font-size: 1.3em;
+    color: #000000;
+    letter-spacing: 17px;
+}
+
+.description_3 {
+    padding-top: 30px;
+    position: relative;
+    left: 110px;
+}
+
+.description_3 h1 {
+    color: #000000;
+    font-size: 3.16rem;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+
+}
+
+.description_3 p {
+    font-size: 1.032rem;
+    padding-top: 30px;
+    padding-left: 6px;
+    color: #787878;
+    font-family: arial;
+    text-align: left;
+    font-weight: lighter;
+    letter-spacing: .15px;
+    line-height: 2.3;
+    position: relative;
+}
+
+.slideshow_3 {
+    position: relative;
+    width: 0%;
+    right: 143px;
+}
+
+.portfolio_3 {
+    float: left;
+    margin-top: 50px;
+    padding-left: 2.5px;
+}
+
+.portfolio_3 a {
+    color: #000000;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 1.2px;
+}
+
+.portfolio_3 a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+#carouselExampleIndicators_3 {
+    width: 51.1vw;
+}
+
+
+/*-------------------------Section_4----------------------------*/
+.content_4 {
+    margin-top: 150px;
+    height: 100%;
+    font-family: Montserrat;
+}
+
+.works_4 {
+    padding-top: 215px;
+    left: 25px
+}
+
+.works_4 h1 {
+    font-family: Bebas Neue;
+    text-align: center;
+    transform: rotate(-90deg);
+    font-size: 1.3em;
+    color: #000000;
+    letter-spacing: 17px;
+}
+
+.description_4 {
+    padding-top: 30px;
+    position: relative;
+    right: 84px;
+}
+
+.description_4 h1 {
+    color: #000000;
+    font-size: 3.1rem;
+    text-align: right;
+    position: relative;
+    z-index: 1;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+
+.description_4 p {
+    text-align: right;
+    padding-right: 6px;
+    padding-top: 30px;
+    font-size: 1.032rem;
+    color: #787878;
+    font-family: arial;
+    font-weight: lighter;
+    letter-spacing: .15px;
+    line-height: 2.3;
+    position: relative;
+}
+
+.slideshow_4 {
+    position: relative;
+    left: 114px;
+}
+
+.portfolio_4 {
+    float: right;
+    margin-top: 30px;
+    padding-right: 2.5px;
+}
+
+.portfolio_4 a {
+    color: #000000;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 1.2px;
+}
+
+.portfolio_4 a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+#carouselExampleIndicators_4 {
+    width: 51.1vw;
+}
+
+/*-------------------------About us----------------------------*/
+.about-us {
+    @include section-padding;
+}
+
+.about_us {
+    padding-top: 120px;
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-bottom: 30px;
+}
+
+.about_us h1 {
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    font-size: 2.65rem;
+    font-family: Bebas Neue;
+    letter-spacing: 33px;
+}
+
+.about_us p {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.04rem;
+    font-weight: lighter;
+    color: #000000;
+    letter-spacing: 1.5px;
+    font-family: sans-serif;
+}
+
+
+/*Carousal*/
+.item-container {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.items {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+}
+
+.items h2 {
+    padding-top: 10px;
+}
+
+.items h2,
+h5 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.item {
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    margin: 2em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: calc(23% - 2.5em);
+}
+
+.item__img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.item::before {
+    display: block;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background: black;
+    opacity: 0;
+}
+
+.item:hover::before {
+    opacity: 0.3;
+}
+
+
+.slider {
+    background: transparent;
+    border: 2px solid black;
+    color: black;
+    padding: 10px;
+}
+
+.slider:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/*-------------------------parellax----------------------------*/
+
+.parellax {
+    height: 40vw;
+    background-image: url('../Images/group.jpg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.parellax > div > h5 {
+    font-family: Bebas Neue;
+    transform: rotate(-90deg);
+    letter-spacing: 15px;
+    float: left;
+    padding-bottom: 390px;
+    padding-left: 250px;
+}
+
+/*-------------------------Who are we?----------------------------*/
+
+.who {
+    padding-top: 80px;
+    padding-left: 250px;
+    padding-right: 250px;
+    height: 100%;
+    width: 100%;
+}
+
+.who h1 {
+    font-family: Bebas Neue;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.4rem;
+    letter-spacing: 35px;
+    color: #000000;
+}
+
+.who p {
+    font-family: sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.4rem;
+    letter-spacing: 6px;
+    line-height: 1.2;
+    color: #000000;
+}
+
+/*--------WANT DESIGN DON'T BE SHY TALK TO US-----------------*/
+
+.want_design {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1.55rem;
+    font-family: Bebas Neue;
+    width: 100%;
+    color: #000000;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+
+/*-------------------------FOOTER----------------------------*/
+
+.footer-image {
+    background-image: url('../Images/Footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+#footer {
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    float: left;
+    padding-top: 50px;
+}
+
+.address {
+    padding-top: 50px;
+}
+
+.allright {
+    padding-top: 50px;
+}
+
+.social {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.social > p > a > i {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.top i {
+    text-align: center;
+    cursor: pointer;
+    font-size: 4rem;
+    margin-top: 100px;
+    color: aliceblue;
+    overflow: hidden;
+
+}
+
+
+
+
+
+
+
+/*test*/
